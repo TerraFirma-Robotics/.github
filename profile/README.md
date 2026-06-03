@@ -1,34 +1,44 @@
 # TerraFirma Robotics
 
-TerraFirma Robotics builds software infrastructure for earth science robotics, simulation support, geospatial context pipelines, perception workflows, and the public web presence that supports the company.
+TerraFirma Robotics builds earth science robotics software for sensing, simulation, geospatial context, and autonomy-support workflows.
 
-This GitHub organization is the private engineering home for active TerraFirma Robotics codebases.
+We are developing the digital infrastructure behind field robotics systems: public web properties, geospatial data pipelines, synthetic asset workflows, simulation support, and internal engineering tools.
 
-## Active repositories
+## What we work on
 
-### Public web
+- **Earth science robotics**: software systems that connect sensing, mapping, and decision support.
+- **Geospatial context pipelines**: environmental data workflows for terrain, land cover, hydrology, fire history, soils, and mission context.
+- **Simulation and synthetic data**: 3D asset and dataset tooling for perception workflows.
+- **Public web and company infrastructure**: websites, dashboards, automation, and internal developer tooling.
 
-- `terrafirma-robotics-website` - exact recovered source for the live TerraFirma Robotics public website.
-- `qc3e-website` - exact recovered source for the live QC3E Ventures website.
-
-### Asset generation and simulation support
-
-- `procedural-asset-factory` - Python-native procedural 3D asset worker scaffold for synthetic data workflows.
-- `trellis2-batch-image-to-3d` - batch image-to-3D worker for TRELLIS.2 GLB asset generation.
-
-### Edge context and autonomy support
-
-- `drone-sentinel-rag` - Databricks edge RAG pipeline for environmental context packaging.
-
-## Working standards
-
-- Repositories are private by default.
-- Secrets stay out of Git. Use environment variables, GitHub secrets, Databricks secrets, or approved vaults.
-- Generated datasets, model outputs, run folders, and deployment artifacts stay out of source control unless they are deliberately tiny fixtures.
-- Production deployments and Vercel wiring require explicit approval before changes.
-- Public claims should stay grounded in approved TerraFirma Robotics positioning and current technical status.
-
-## Useful links
+## Public links
 
 - Website: https://www.terrafirma-robotics.com/
 - Contact: contact@terrafirma-robotics.com
+
+## For TerraFirma Robotics team members
+
+Most repositories in this organization are private. If you are joining a project and do not see the repo you need:
+
+1. Confirm you are signed into the correct GitHub account.
+2. Ask Jake or the repo owner for organization access.
+3. Use the repo README first. It should explain purpose, setup, run commands, and deployment notes.
+4. Keep secrets out of Git. Use approved environment variables, GitHub secrets, Databricks secrets, or the company vault.
+5. Do not change production deployment wiring unless Jake has explicitly approved it.
+
+## Repository standards
+
+- Private by default.
+- Clear README in every repo.
+- No secrets, API keys, tokens, `.env` files, generated datasets, model outputs, or large runtime artifacts in Git.
+- Small reproducible examples are welcome when they help future team members onboard.
+- Public claims should stay grounded in approved TerraFirma Robotics positioning and current technical status.
+
+## Current engineering areas
+
+- Public website source recovery and maintenance
+- Procedural 3D asset workflows
+- TRELLIS.2 image-to-3D batch generation
+- Databricks geospatial context packaging
+- Internal tools and automation
+
