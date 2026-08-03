@@ -1,21 +1,18 @@
-# TerraFirma Robotics
+# Zohardi
+**Verified earth intelligence. Ground truth at planetary scale.**
 
-**Robotics software for the physical world.**
+Zohardi builds autonomous aircraft and the intelligence stack behind them: systems that land, sample, and measure the physical world, then turn those measurements into living, decision-grade models of the land. Zohardi, from Basque: the clear sky after the storm, the moment you can finally see everything.
 
-TerraFirma Robotics builds the software that lets field robotics systems sense, understand, and act in real environments — uniting perception, geospatial intelligence, simulation, and autonomy support into one engineering stack.
-
-## What we do
-
-- **Earth-science autonomy** — software that turns sensing and mapping into field-ready decisions.
-- **Geospatial intelligence** — environmental and terrain data pipelines that give robots mission-grade context.
-- **Simulation & synthetic data** — high-fidelity 3D and dataset tooling that trains and validates perception before deployment.
-- **Engineering platform** — the web properties, dashboards, and automation that move our systems from lab to field.
+## What we build
+- **Autonomy & edge intelligence**: on-aircraft perception and decision-making, vision-language models, and flight autonomy that compress observation into meaning before a single byte leaves the airframe.
+- **Geospatial intelligence**: pipelines that fuse imagery, soil, thermal, and terrain measurement into versioned, centimeter-scale site models, delivered where teams already work, including ArcGIS.
+- **Simulation & synthetic data**: high-fidelity 3D environments and dataset tooling, from NVIDIA Isaac Sim to Gaussian splatting, that train and validate perception before it ever flies.
+- **Platform & delivery**: the data infrastructure, APIs, and dashboards that carry a verified measurement from the aircraft to the customer's decision.
 
 ## Connect
-
-- Website: https://www.terrafirma-robotics.com/
-- Contact: contact@terrafirma-robotics.com
+- Website: https://www.zohardi.com/
+- Careers: https://www.zohardi.com/careers.html
+- Contact: contact@zohardi.com
 
 ---
-
 <sub>Most of our work lives in private repositories. Team members: request access from your project lead.</sub>
